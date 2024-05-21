@@ -49,3 +49,12 @@ $ git reset <commit code>
 
 # Rewrite History
 $ git rebase -i --root
+
+# View Branches
+$ git branch
+
+# Add Branch
+$ git branch <branch name>
+
+# Switch Branches
+$ git switch <branch name>
