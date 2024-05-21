@@ -14,14 +14,21 @@ $ cd <file path>
 Initialize Main Repository
 $ git init
 
-Add File to Stage
+Add/Update File to Stage (to be committed)
 $ git add <file name>
 $ git add --all
 $ git add .
 $ git add -A
 
-Remove File from Stage
+Remove File from Working Tree
 $ git rm --cached <file name>
 
+Remove File from Stage
+$ git restore --staged <file name>
 
+Check Staged & Modified Files of Working Tree
+$ git status
 
+Commit Changes
+$ git commit -m <"message">
+$ git commit -a -m <"message"> * Skip Staging
