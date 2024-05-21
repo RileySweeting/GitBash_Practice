@@ -44,20 +44,29 @@ $ git log
 $ git log --oneline
 $ git log -p
 
-# Reset to Prev Commit
+Reset to Prev Commit
 $ git reset <commit code>
 
-# Rewrite History
+Rewrite History
 $ git rebase -i --root
 
-# View Branches
+View Branches
 $ git branch
 
-# Add Branch
+Add Branch
 $ git branch <branch name>
 
-# Switch Branches
+Switch Branches
 $ git switch <branch name>
 
-# Delete Branch
+Delete Branch
 $ git branch -d <branch name>
+
+Merge Branches
+$ git merge -m <"message"> <branch name>
+
+Link Repository to GitHub
+$ git remote add origin <url>
+$ git branch -M main
+$ git push -u origin main
+$ git push --all * Push all branches
