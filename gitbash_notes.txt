@@ -33,5 +33,19 @@ Commit Changes
 $ git commit -m <"message">
 $ git commit -a -m <"message"> * Skip Staging
 
-Rename File
+Modify Latest Commit
+$ git commit -m <"new message"> --amend
+
+Rename File (Automatically stages)
 $ git mv <"old name"> <"new name">
+
+Git Commit Log
+$ git log
+$ git log --oneline
+$ git log -p
+
+# Reset to Prev Commit
+$ git reset <commit code>
+
+# Rewrite History
+$ git rebase -i --root
