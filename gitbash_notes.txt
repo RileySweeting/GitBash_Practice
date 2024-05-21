@@ -58,3 +58,6 @@ $ git branch <branch name>
 
 # Switch Branches
 $ git switch <branch name>
+
+# Delete Branch
+$ git branch -d <branch name>
