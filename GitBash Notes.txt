@@ -1,0 +1,27 @@
+GIT TUTORIAL
+------------
+
+Configure Name & Email
+$ git config --global user.name <"firstname lastname">
+$ git config --global user.email <email>
+
+Define Main Repository
+$ git config --global init.defaultBranch <main>
+
+Change Working Directory
+$ cd <file path>
+
+Initialize Main Repository
+$ git init
+
+Add File to Stage
+$ git add <file name>
+$ git add --all
+$ git add .
+$ git add -A
+
+Remove File from Stage
+$ git rm --cached <file name>
+
+
+
