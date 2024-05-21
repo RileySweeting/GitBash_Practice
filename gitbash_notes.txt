@@ -72,5 +72,5 @@ $ git branch -M main
 $ git push -u origin main * Push changes to online repo
 $ git push --all * Push all branches
 
-Sync Changed made on GitHub to Local Machine
+Sync Changes made on GitHub to Local Machine
 $ git fetch origin
