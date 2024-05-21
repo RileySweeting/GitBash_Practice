@@ -20,10 +20,10 @@ $ git add --all
 $ git add .
 $ git add -A
 
-Remove File from Working Tree
+Remove File from Working Tree (untrack)
 $ git rm --cached <file name>
 
-Remove File from Stage
+Remove File from Stage or Recover File
 $ git restore --staged <file name>
 
 Check Staged & Modified Files of Working Tree
@@ -32,3 +32,6 @@ $ git status
 Commit Changes
 $ git commit -m <"message">
 $ git commit -a -m <"message"> * Skip Staging
+
+Rename File
+$ git mv <"old name"> <"new name">
